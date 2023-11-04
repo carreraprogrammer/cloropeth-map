@@ -1,18 +1,19 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="stylesheet" href="./style.css">
-      <script src="https://d3js.org/d3.v5.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/3.0.2/topojson.min.js" integrity="sha256-tHoAPGoNdhIR28YHl9DWLzeRfdwigkH7OCBXMrHXhoM=" crossorigin="anonymous"></script>
-      <title>Choropleth Map</title>
-  </head>
-  <body>
-      <svg id='canvas'>
-          
-      </svg>
-  </body>
-  <script defer src='script.js'></script>
-  <script defer src='https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js'></script>
-</html>
+html, body{
+  min-height: 100%
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+svg{
+  background-color: whitesmoke;
+}
+
+#canvas{
+  min-width: 1000px;
+  min-height: 600px
+}
